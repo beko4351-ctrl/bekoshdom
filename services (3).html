@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Наши Услуги | Бекжан</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+    body { font-family: 'Inter', sans-serif; background: #f7f9fc; }
+    .text-accent { color: #0077b6; }
+    .bg-accent { background-color: #0077b6; }
+    .shadow-premium { box-shadow: 0 10px 30px rgba(0,0,0,0.05); }
+  </style>
+</head>
+<body class="text-gray-800">
+
+  <!-- Навигация -->
+  <header class="sticky top-0 bg-white shadow-premium">
+    <nav class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="index.html" class="text-2xl font-bold text-accent">Бекжан <span class="text-gray-800">PRO</span></a>
+      <div class="hidden md:flex space-x-6 font-medium">
+        <a href="services.html" class="text-accent border-b-2 border-accent pb-1">Услуги</a>
+        <a href="about.html" class="hover:text-accent">О нас</a>
+        <a href="contact.html" class="hover:text-accent">Контакты</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="py-16 md:py-24 max-w-7xl mx-auto px-6">
+    <h1 class="text-4xl font-bold text-center mb-12">Наши Услуги</h1>
+    
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+      <div class="p-6 bg-white rounded-xl shadow-premium">
+        <h3 class="text-xl font-semibold mb-3 text-accent">Продажа Имущества</h3>
+        <p class="text-gray-600">Оценка, реклама, юридическое сопровождение и заключение сделки.</p>
+      </div>
+      <div class="p-6 bg-white rounded-xl shadow-premium">
+        <h3 class="text-xl font-semibold mb-3 text-accent">Управление Арендой</h3>
+        <p class="text-gray-600">Полное сопровождение арендных отношений и управление объектом.</p>
+      </div>
+      <div class="p-6 bg-white rounded-xl shadow-premium">
+        <h3 class="text-xl font-semibold mb-3 text-accent">Инвестиции и Финансы</h3>
+        <p class="text-gray-600">Подбор стратегий, ипотека, оценка и долгосрочные инвестиции.</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- Подвал -->
+  <footer class="bg-gray-800 text-white py-6 text-center">
+    <p>&copy; 2025 Бекжан. Все права защищены.</p>
+  </footer>
+
+</body>
+</html>

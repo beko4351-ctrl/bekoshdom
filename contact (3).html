@@ -3,14 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Минимальный Дом | Агентство Недвижимости</title>
-  <meta name="description" content="Минимальный дом — современное жилье за городом. Простота, уют и качество. Узнайте подробнее о доме и цене.">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+  <title>Контакты | Агентство недвижимости Бекжан</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="assets/tw-replacement.css">
 </head>
-
 <body class="bg-gray-50 text-gray-800">
 
   <header class="sticky top-0 z-50 bg-white shadow">
@@ -36,59 +34,54 @@
     </div>
   </header>
 
-  <main class="max-w-6xl mx-auto px-6 py-16">
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
-      
-      <div>
-        <img src="https://i.pinimg.com/originals/85/43/a1/8543a170303a1b940d064e2b2e901c78.jpg" 
-             alt="Минимальный дом" 
-             class="w-full h-auto rounded-2xl shadow-lg">
-      </div>
+  <section class="max-w-7xl mx-auto px-6 py-16">
+    <h2 class="text-3xl font-bold text-gray-900 mb-8 text-center">Свяжитесь с нами</h2>
+
+    <div class="grid md:grid-cols-2 gap-10">
 
       <div>
-        <h1 class="text-4xl font-bold text-blue-700 mb-4">Минимальный Дом</h1>
-        <p class="text-lg text-gray-600 mb-6">
-          Этот современный минималистичный дом расположен в живописном пригороде, окружённом зелёными деревьями и чистым воздухом.
-          Идеальный вариант для тех, кто ценит спокойствие, комфорт и эстетику простоты.
-        </p>
+        <h3 class="text-xl font-semibold mb-4">Наш офис</h3>
+        <p class="text-gray-600 mb-2"> г. Алматы, ул. Абая 150, БЦ “Aurora”</p>
+        <p class="text-gray-600 mb-2"> Телефон: <a href="tel:+77001112233" class="text-indigo-600 hover:underline">+7 (700) 111-22-33</a></p>
+        <p class="text-gray-600 mb-4"> Email: <a href="mailto:info@bekjan.kz" class="text-indigo-600 hover:underline">info@bekjan.kz</a></p>
+        <p class="text-gray-600"> Время работы:<br>Пн–Сб: 9:00–19:00<br>Вс: выходной</p>
 
-        <ul class="text-gray-700 space-y-2 mb-8">
-          <li> <strong>Площадь:</strong> 180 м²</li>
-          <li> <strong>Комнат:</strong> 5</li>
-          <li> <strong>Участок:</strong> 8 соток</li>
-          <li> <strong>Расположение:</strong> Пригород Алматы (15 минут от центра)</li>
-          <li> <strong>Коммуникации:</strong> Вода, свет, газ, интернет</li>
-        </ul>
-
-        <div class="text-3xl font-bold text-blue-700 mb-6">Цена: 890 000 ₸</div>
-
-        <div class="flex flex-col sm:flex-row gap-4">
-          <a href="contact.html" class="bg-blue-700 text-white px-6 py-3 rounded-xl hover:bg-blue-800 transition shadow-md">
-            Связаться с агентом
-          </a>
-          <a href="index.html" class="bg-white border border-gray-300 text-gray-800 px-6 py-3 rounded-xl hover:bg-gray-100 transition shadow-md">
-            ← Назад на главную
-          </a>
+        <div class="flex space-x-4 mt-6">
+          <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" class="w-7 h-7" alt="Telegram"></a>
+          <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" class="w-7 h-7" alt="WhatsApp"></a>
+          <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" class="w-7 h-7 rounded" alt="Instagram"></a>
+          <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" class="w-12 h-auto" alt="YouTube"></a>
         </div>
       </div>
 
+      <div class="bg-white shadow-lg rounded-2xl p-8">
+        <h3 class="text-xl font-semibold mb-6">Отправьте сообщение</h3>
+        <form action="#" method="POST" class="space-y-4">
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-1">Ваше имя</label>
+            <input type="text" class="w-full border-gray-300 rounded-lg shadow-sm focus:ring-indigo-500 focus:border-indigo-500 p-2" required>
+          </div>
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-1">Электронная почта</label>
+            <input type="email" class="w-full border-gray-300 rounded-lg shadow-sm focus:ring-indigo-500 focus:border-indigo-500 p-2" required>
+          </div>
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-1">Сообщение</label>
+            <textarea rows="4" class="w-full border-gray-300 rounded-lg shadow-sm focus:ring-indigo-500 focus:border-indigo-500 p-2" required></textarea>
+          </div>
+          <button type="submit" class="bg-indigo-600 text-white px-6 py-2 rounded-lg hover:bg-indigo-700 transition">Отправить</button>
+        </form>
+      </div>
     </div>
-  </main>
 
-  </footer>
+    <div class="mt-16 rounded-2xl overflow-hidden shadow-lg">
+      <iframe src="https://www.google.com/maps?q=Алматы,+ул.+Абая,+150&output=embed" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </section>
+
+  </section>
 <footer class="bg-gray-100 text-gray-800 mt-20 border-t">
   <div class="max-w-7xl mx-auto px-6 py-12 grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 gap-8">
-
-    <div>
-      <h3 class="font-semibold text-lg mb-4">Покупателям</h3>
-      <ul class="space-y-2 text-sm text-gray-600">
-        <li><a href="#" class="hover:text-indigo-600">Оплата</a></li>
-        <li><a href="#" class="hover:text-indigo-600">Контакты</a></li>
-        <li><a href="#" class="hover:text-indigo-600">Магазины</a></li>
-        <li><a href="#" class="hover:text-indigo-600">Вопросы и ответы</a></li>
-        <li><a href="#" class="hover:text-indigo-600">Договор публичной оферты</a></li>
-      </ul>
-    </div>
 
     <div>
       <h3 class="font-semibold text-lg mb-4">Покупателям</h3>
@@ -107,6 +100,7 @@
         <li><a href="#" class="hover:text-indigo-600">Подарочные сертификаты</a></li>
         <li><a href="#" class="hover:text-indigo-600">Бонусные карты</a></li>
         <li><a href="#" class="hover:text-indigo-600">Аренда помещений</a></li>
+        <li><a href="#" class="hover:text-indigo-600">Оптовым покупателям (b2b)</a></li>
       </ul>
     </div>
 
@@ -124,7 +118,7 @@
     <div>
       <h3 class="font-semibold text-lg mb-4">Наши проекты</h3>
       <ul class="space-y-2 text-sm text-gray-600">
-        <li><span class="font-medium text-gray-700">krisha.kz</span> — дома, квартиры</li>
+        <li><span class="font-medium text-gray-700">krisha.kz</span> — квартиры, дома</li>
       </ul>
 
       <h3 class="font-semibold text-lg mt-6 mb-3">Связаться с нами</h3>
@@ -149,11 +143,26 @@
       <img src="https://api.qrserver.com/v1/create-qr-code/?data=https://bekjan.kz&size=120x120" alt="QR" class="w-24 h-24 rounded-lg shadow">
     </div>
   </div>
-    <div class="bg-gray-800 text-center text-white py-4 text-sm mt-10">
-    © 2025 Бекжан. Все права защищены.
-  
+
+
   </div>
 </footer>
-<script src="menu.js"></script>
+
+  <section class="bg-indigo-600 py-20 text-white text-center">
+    <div class="max-w-3xl mx-auto px-6">
+      <p class="text-2xl italic mb-6">
+        “Недвижимость — это не просто стены и крыша. Это место, где начинается история вашей жизни.”
+      </p>
+      <p class="text-lg font-semibold">— Команда Бекжан </p>
+    </div>
+  </section>
+
+  <footer class="bg-gray-800 text-white py-6 text-center">
+  <div class="bg-gray-800 text-center text-white py-4 text-sm mt-10">
+    © 2025 Бекжан. Все права защищены.
+
+  <script src="menu.js"></script>
 
 <script defer src="assets/app.js"></script>
+</body>
+</html>
